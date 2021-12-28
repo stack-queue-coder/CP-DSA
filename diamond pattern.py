@@ -1,0 +1,19 @@
+rows = 2*(int(input()))+2
+i = (rows // 2) - 1
+j = 1 
+while i != 0:
+    while j <= (rows - 2):
+        print("*" * i, end="")
+        print(" " * j, end="")
+        print("*" * i, end="\n")
+        i = i - 1
+        j = j + 2
+m=1    
+while k>=1:
+        
+        print("*" * m, end="")
+        print(" " * (k-2), end="")
+        print("*" * m, end="\n")
+        m=m+1
+        k=k-2
+        i=i-1
